@@ -8,7 +8,18 @@ import axios from "axios";
 
 export default function App() {
  
-
+useEffect(()=>{
+  const getDate=()=>{
+    axios.get("/").then((result) => {
+      console.log(result);
+    }).catch((err) => {
+      console.log(err);
+    });
+  }
+  return()=>{
+    getDate()
+  }
+})
 
   return (
     <div>
