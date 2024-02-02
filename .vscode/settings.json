@@ -1,0 +1,6 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.autoClosingBrackets": "always",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.suggest.snippetsPreventQuickSuggestions": true
+}
