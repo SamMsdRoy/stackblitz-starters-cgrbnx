@@ -7,9 +7,8 @@ import axios from "axios";
 
 
 export default function App() {
- useEffect(()=>{
-axios.get()
-})
+ 
+
 
   return (
     <div>
